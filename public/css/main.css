@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    background-color: #333;
+    color: white;
+    padding: 20px 10px;
+    margin: 20px 10px;
+}
+
+.card-body {
+    background-color: #444;
+    color: white;
+}
+
+.form-control {
+    margin: 10px 0px;
+
+}
+
+
+
+.message_section {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    z-index: 34567;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.message_section .success-message {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
